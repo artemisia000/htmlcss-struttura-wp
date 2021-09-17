@@ -13,11 +13,7 @@
     margin: 30px auto;
 }
 
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 .mb-20{
     margin-bottom: 20px;
@@ -36,20 +32,39 @@ main{
     height: 400px;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 section{
     background-color: lightskyblue;
-    height: 80px;
+    height: 100px;
 }
 
-.rec1 .rec2 .rec3{
+.tab1,
+.tab2{
+    float: left;
+    background-color: lightskyblue;
+}
+
+.tab3{
+    background-color: lightskyblue;
+}
+.tab2,
+.tab3{
     float: left;
 }
 
-.rec1{
-    background-color: lightskyblue;
-    width: 30%;
-    height: 300px;
-    
-    
+.tab1,
+.tab3{
+    width: 20%;
+    height: 350px;
+
+}
+
+.tab2{
+    width: 60%;
+    height: 350px;
 }
