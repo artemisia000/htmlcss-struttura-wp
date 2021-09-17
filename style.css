@@ -17,6 +17,7 @@
 
 .mb-20{
     margin-bottom: 20px;
+    
 }
 
 /*HEADER*/
@@ -61,10 +62,15 @@ section{
 .tab3{
     width: 20%;
     height: 350px;
+    
 
 }
+
 
 .tab2{
     width: 60%;
     height: 350px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
 }
