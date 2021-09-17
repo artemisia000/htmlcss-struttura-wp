@@ -13,6 +13,12 @@
     margin: 30px auto;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .mb-20{
     margin-bottom: 20px;
 }
@@ -28,4 +34,22 @@ header{
 main{
     background-color: gold;
     height: 400px;
+}
+
+
+section{
+    background-color: lightskyblue;
+    height: 80px;
+}
+
+.rec1 .rec2 .rec3{
+    float: left;
+}
+
+.rec1{
+    background-color: lightskyblue;
+    width: 30%;
+    height: 300px;
+    
+    
 }
