@@ -21,11 +21,11 @@
 }
 
 /*HEADER*/
-
 header{
     background-color: deeppink;
     height: 100px;
 }
+
 
 /*MAIN*/
 main{
@@ -33,6 +33,7 @@ main{
     height: 400px;
 }
 
+/*SECTION*/
 .clearfix::after{
     content: "";
     display: table;
@@ -41,6 +42,7 @@ main{
 .sfondo{
     background-color: royalblue;
 }
+
 section{
     background-color: lightskyblue;
     height: 100px;
@@ -55,6 +57,7 @@ section{
 .tab3{
     background-color: lightskyblue;
 }
+
 .tab2,
 .tab3{
     float: left;
@@ -70,10 +73,10 @@ section{
 
 
 .tab2{
-    width: 60%;
+    width: 56%;
     height: 350px;
-    padding-right: 15px;
-    padding-left: 15px;
+    margin-right: 2%;
+    margin-left: 2%;
     
 }
 
