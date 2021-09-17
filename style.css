@@ -38,7 +38,9 @@ main{
     display: table;
     clear: both;
 }
-
+.sfondo{
+    background-color: royalblue;
+}
 section{
     background-color: lightskyblue;
     height: 100px;
@@ -73,4 +75,10 @@ section{
     padding-right: 15px;
     padding-left: 15px;
     
+}
+
+footer{
+    background-color: rebeccapurple;
+    height:50px ;
+    margin-top: 10px;
 }
